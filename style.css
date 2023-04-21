@@ -51,7 +51,7 @@ body {
 #hero-section {
   background: #d3d3d3;
   background-image: url(./assets/mobilebackground.jpg);
-  background-repeat: repeat;
+  /* background-repeat: repeat; */
 }
 
 #mainprogram-section {
@@ -113,7 +113,7 @@ body {
   }
 
   #head-2 {
-    font-size: 4.5rem !important;
+    font-size: 3.65rem !important;
     padding-left: 10%;
   }
 
@@ -258,7 +258,7 @@ body {
   #hero-section {
     background: #d3d3d3;
     background-image: url(./assets/background2.jpg);
-    background-repeat: no-repeat;
+    background-repeat: repeat;
   }
 
   #line-before-footer {

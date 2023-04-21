@@ -79,8 +79,9 @@ body {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  background: rgba(236, 82, 66, 0.3);
-  background-image: url('./assets/conference1.jpg');
+  /* background: rgba(236, 82, 66, 1); */
+  background-image: url('./assets/conference1.jpg'), linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8));
+  background-blend-mode: overlay;
 }
 
 #header-menu-1-2 {
@@ -89,12 +90,12 @@ body {
 
 #card-1 {
   width: 300px;
-  height: 200px;
+  height: 180px;
 }
 
 #card-2 {
   width: 300px;
-  height: 200px;
+  height: 180px;
 }
 
 #paragraph-mobile {
@@ -261,9 +262,9 @@ body {
   }
 
   #hero-section {
-    background: #d3d3d3;
-    background-image: url(./assets/background2.jpg);
-    background-repeat: no-repeat;
+    /* background: #d3d3d3; */
+    /* background-image: url(./assets/background2.jpg);
+    background-repeat: repeat; */
   }
 
   #footer-inside {
