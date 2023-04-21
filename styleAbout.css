@@ -89,6 +89,7 @@ body {
 #card-1::before {
   content: '';
   position: relative;
+
   /* background: #ec5242, url(./assets/conference1.jpg); */
   background: rgba(243, 83, 45, 0.7);
   background-size: cover;
