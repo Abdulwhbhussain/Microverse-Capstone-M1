@@ -51,6 +51,7 @@ body {
 #hero-section {
   background: #d3d3d3;
   background-image: url(./assets/mobilebackground.jpg);
+  background-repeat: repeat;
 }
 
 #mainprogram-section {
@@ -157,7 +158,7 @@ body {
     flex-direction: column !important;
     padding: 1.5% !important;
     width: 150px;
-    height: fit-content;
+    height: 250px;
     font-size: 0.6rem;
   }
 
@@ -252,5 +253,29 @@ body {
 
   #menu {
     display: none !important;
+  }
+
+  #hero-section {
+    background: #d3d3d3;
+    background-image: url(./assets/background2.jpg);
+    background-repeat: no-repeat;
+  }
+
+  #line-before-footer {
+    display: none;
+  }
+
+  #footer {
+    background: #d3d3d3;
+  }
+
+  #footer-inside {
+    padding: 0% 15% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  #last-line-break {
+    display: none;
   }
 }
