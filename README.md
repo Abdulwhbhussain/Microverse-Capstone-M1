@@ -88,9 +88,9 @@ This is My Capstone Project of Module 1 in Microverse which is A Dynamic and Res
 
 ### Key Features <a name="key-features"></a>
 
-- **Coming Soon**
-- **Coming Soon**
-- **Coming Soon**
+- **Mobile Responsive**
+- **Friendly UX**
+- **Easy to use**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,7 +100,7 @@ This is My Capstone Project of Module 1 in Microverse which is A Dynamic and Res
 
 > Here is the Link to this Project's Demo in Loom Video:
 
-> Coming Soon!
+> https://www.loom.com/share/ab53647ef0ef41b1915316e15e45fc80
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
