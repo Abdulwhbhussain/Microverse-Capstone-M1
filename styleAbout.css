@@ -14,7 +14,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   padding: 0%;
   margin: 0%;
 }
@@ -87,18 +87,14 @@ body {
   display: none;
 }
 
-#card-1::before {
-  content: '';
-  position: relative;
+#card-1 {
+  width: 300px;
+  height: 200px;
+}
 
-  /* background: #ec5242, url(./assets/conference1.jpg); */
-  background: rgba(243, 83, 45, 0.7);
-  background-size: cover;
-  width: 100%;
-  height: fit-content;
-  opacity: 0.3;
-  z-index: 10;
-  border: 1px solid red;
+#card-2 {
+  width: 300px;
+  height: 200px;
 }
 
 #paragraph-mobile {
@@ -268,5 +264,25 @@ body {
     background: #d3d3d3;
     background-image: url(./assets/background2.jpg);
     background-repeat: no-repeat;
+  }
+
+  #footer {
+    background: #272a31;
+  }
+
+  #footer-inside {
+    padding: 0% 15% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+
+  #last-line-in-footer {
+    display: none !important;
+  }
+
+  #event-cards-12 {
+    flex-direction: row !important;
+    column-gap: 5% !important;
+    justify-content: baseline !important;
   }
 }
