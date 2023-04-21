@@ -60,18 +60,17 @@ const speakersArray = [
 ];
 
 window.onload = () => {
-  for(let i = 0; i < speakersArray.length; i = i+1) {
+  for (let i = 0; i < speakersArray.length; i = i+1) {
         const speaker = document.createElement('div');
         speaker.classList.add('highlevel-section-div-2', 'mb-5');
-        if(i > 1) {
-            speaker.setAttribute('id', `head-${i + 5}`);
-        };
-        speaker.innerHTML = `
+    if (i > 1) {
+      speaker.setAttribute('id', `head-${i + 5}`);
+    };
+    speaker.innerHTML = `
         <div><img src='${speakersArray[i].photo}' alt='lecture 2' /></div>
                             <div><h4 style='font-weight: 700;'>${speakersArray[i].name}</h4>
                             <p style='font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;'>${speakersArray[i].role}</p><hr style='border: 1px solid #d3d3d3; width: 10%;'><p style='font-size: 0.75rem;'>${speakersArray[i].description}</p></div>
         `;
-        document.querySelector('#block-78910').appendChild(speaker);
-    
-    }
+    document.querySelector('#block-78910').appendChild(speaker);
+  }
 };
