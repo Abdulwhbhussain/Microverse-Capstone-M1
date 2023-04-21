@@ -15,48 +15,47 @@ crossInMenu.addEventListener('click', () => {
 // Speakers Section Dynamic Creation
 
 const speakersArray = [
-    {
-        name: "Yochai Benkler", 
-        role: "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", 
-        description: "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006", 
-        photo: "./assets/lecturer1.jpg"
-      },
+  {
+    name: "Yochai Benkler", 
+    role: "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School", 
+    description: "Benkler studies commons-based peer production, and published his seminal book The Wealth of Networks in 2006", 
+    photo: "./assets/lecturer1.jpg"
+  },
 
-      {
-        name: "SohYeong Noh", 
-        role: "Director of Art Centre Nabi and a board member of CC Korea", 
-        description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
-        photo: "./assets/lecturer3.jpg"
-      },
+  {
+    name: "SohYeong Noh", 
+    role: "Director of Art Centre Nabi and a board member of CC Korea", 
+    description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
+    photo: "./assets/lecturer3.jpg"
+  },
 
-      {
-        name: "SohYeong Noh", 
-        role: "Director of Art Centre Nabi and a board member of CC Korea", 
-        description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
-        photo: "./assets/lecturer2.jpg"
-      },
+  {
+    name: "SohYeong Noh", 
+    role: "Director of Art Centre Nabi and a board member of CC Korea", 
+    description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
+    photo: "./assets/lecturer2.jpg"
+  },
 
-      {
-        name: "SohYeong Noh", 
-        role: "Director of Art Centre Nabi and a board member of CC Korea", 
-        description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
-        photo: "./assets/lecturer4.jpg"
-      },
+  {
+    name: "SohYeong Noh", 
+    role: "Director of Art Centre Nabi and a board member of CC Korea", 
+    description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
+    photo: "./assets/lecturer4.jpg"
+  },
 
-      {
-        name: "SohYeong Noh", 
-        role: "Director of Art Centre Nabi and a board member of CC Korea", 
-        description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
-        photo: "./assets/lecturer5.jpg"
-      },
+  {
+    name: "SohYeong Noh", 
+    role: "Director of Art Centre Nabi and a board member of CC Korea", 
+    description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
+    photo: "./assets/lecturer5.jpg"
+  },
 
-      {
-        name: "SohYeong Noh", 
-        role: "Director of Art Centre Nabi and a board member of CC Korea", 
-        description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
-        photo: "./assets/lecturer6.jpg"
-      }
-
+  {
+    name: "SohYeong Noh", 
+    role: "Director of Art Centre Nabi and a board member of CC Korea", 
+    description: "As the main venue for new media art production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science technology, humanities, and the arts.", 
+    photo: "./assets/lecturer6.jpg"
+  }
 
 ];
 
