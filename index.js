@@ -1,15 +1,15 @@
-const homepage = document.querySelector('#homepage');
+// const homepage = document.querySelector('#homepage');
 
 const hamburger = document.querySelector('#hamburger-menu');
 
 const crossInMenu = document.querySelector('#close-menu');
 
-hamburger.addEventListener('click', (e) => {
-    document.querySelector('#menu').style.display = 'block';
+hamburger.addEventListener('click', () => {
+  document.querySelector('#menu').style.display = 'block';
 });
 
-crossInMenu.addEventListener('click', (e) => {
-    document.querySelector('#menu').style.display = 'none';
+crossInMenu.addEventListener('click', () => {
+  document.querySelector('#menu').style.display = 'none';
 });
 
 const featuredSpeakers = document.createElement('section');
@@ -59,5 +59,4 @@ featuredSpeakers.innerHTML = `
                       </svg>
                 </button></div>
 `;
-console.log(featuredSpeakers);
 document.querySelector('#homepage').insertBefore(featuredSpeakers, document.querySelector('#partners'));
