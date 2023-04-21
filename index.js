@@ -60,12 +60,12 @@ const speakersArray = [
 ];
 
 window.onload = () => {
-  for (let i = 0; i < speakersArray.length; i = i+1) {
-        const speaker = document.createElement('div');
-        speaker.classList.add('highlevel-section-div-2', 'mb-5');
+  for (let i = 0; i < speakersArray.length; i += 1) {
+    const speaker = document.createElement('div');
+    speaker.classList.add('highlevel-section-div-2', 'mb-5');
     if (i > 1) {
       speaker.setAttribute('id', `head-${i + 5}`);
-    };
+    }
     speaker.innerHTML = `
         <div><img src='${speakersArray[i].photo}' alt='lecture 2' /></div>
                             <div><h4 style='font-weight: 700;'>${speakersArray[i].name}</h4>
