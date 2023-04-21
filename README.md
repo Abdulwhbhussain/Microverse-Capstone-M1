@@ -161,7 +161,7 @@ To run the project, execute the following command:
 
 > Here is the Link to this Live Project:
 
-> Coming Soon!
+> https://abdulwhbhussain.github.io/Microverse-Capstone-M1/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -208,6 +208,8 @@ If you like this project Leave A Star.
 
 I would like to thank Microverse and The Code Reviewers of This Project for giving 
 Reviews and Feedback Regarding This Project.
+
+I would like to give credit to <a href="https://creativecommons.org/licenses/">Cindy Shin</a> in Behance design for inspiring me enough to make this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

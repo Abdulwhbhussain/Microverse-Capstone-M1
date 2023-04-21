@@ -20,7 +20,7 @@
     <title>The Way of Humanity - About</title>
 </head>
 <body>
-    <div id="aboutpage">
+    <section id="aboutpage">
         <!-- Header Menu-1-2 -->
         <header id="header-menu-1-2">
             <!-- Toolbar header 1 -->
@@ -83,7 +83,7 @@
             <div class="highlevel-section-div mt-5 p-0">
                 <p style="color: #ec5242; font-size: 1.3rem;line-height: fit;"><b>"Hello! Sharing world"</b></p>
             </div>
-            <div class="highlevel-section-div mb-5"><h2 style="color: #ec5242; font-weight:900">Creative COMMONS<br>GLOBAL SUMMIT 2015</h2></div>
+            <section class="highlevel-section-div mb-5"><h2 style="color: #ec5242; font-weight:900">Creative COMMONS<br>GLOBAL SUMMIT 2015</h2></section>
             <div class="highlevel-section-div p-3" style="text-align: center; background-color: #ffffff; border: 1px solid #d3d3d3;"><p style="font-weight: 700; font-size: 1rem; color: #272a31;">
                 The Global Summit brings together the community of experts, academics, and activists who comprise the Creative Commons affiliate network in a different country every two. This year, we hope to expand our invitation list including organizations and individuals.
             </p></div>
@@ -94,26 +94,33 @@
         </div>
         </main>
         <section id="mainprogram-section" class="highlevel-section pt-5 pb-4">
-            <div class="highlevel-section-div" style="display: flex; flex-direction: column; color: #272a31; font-size: 1.5rem; font-weight: 700;">
-                <p style="text-align: center; ">Creative Commons<br>Global Summit 2015 Logo</p><hr style="border: 1px solid #ec5242; width: 10%; margin-top: 0%;">
+            <div id="about-logo-title" class="highlevel-section-div" style="display: flex; flex-direction: column; color: #272a31; font-size: 1.5rem; font-weight: 700;">
+                <p style="text-align: center; ">Creative Commons<br id="about-logo-title-br"> Global Summit 2015 Logo</p><hr style="border: 1px solid #ec5242; width: 10%; margin-top: 0%;">
                 </div>
     
-                <div class="highlevel-section-div mt-2 mb-4">
+                <div id="paragraph-mobile" class="highlevel-section-div mt-2 mb-4">
                     <p class="p-2" style="text-align: center; color: #272a31; font-size: 0.9rem; font-weight: 700;">The logo of CC Global Summit 2015 was decided through the logo competition from 8.June to 7.July.</p>
                     </div>
-                <div class="highlevel-section-div" style="border: 1px solid #d3d3d3"><img src="./assets/LogoTWOH.PNG" alt="The Way of Humanity" />
+                    <div id="paragraph-desktop" class="highlevel-section-div mt-2 mb-4">
+                        <p class="p-2" style="text-align: center; color: #272a31; font-size: 0.9rem; font-weight: 700;">The logo of CC Global Summit 2015 was decided through the logo
+                            competition from 8. June to 7. July.
+                            After online public voting and Selection Committee's judging process,
+                            the logo from Naresh Agrawal won the prize.
+                            After consultation.</p>
+                        </div>
+                <div id="logo-in-about" class="highlevel-section-div" style="border: 1px solid #d3d3d3"><img src="./assets/LogoTWOH.PNG" alt="The Way of Humanity" />
                     
                 </div>
         </section>
-        <hr style="border: 1px solid #d3d3d3; width: 100%">
+        <hr style="border: 2px solid #d3d3d3; width: 100%">
         <section id="featuredspeakers-section" class="highlevel-section">
-            <div class="highlevel-section-div mb-2" style="display: flex; flex-direction: column; color: #272a31; font-size: 1.5rem;">
+            <div id="events-section-1" class="highlevel-section-div mb-2" style="display: flex; flex-direction: column; color: #272a31; font-size: 1.5rem;">
                 <p style="font-weight: 700;">See the past CC Global Summits</p><hr style="border: 1px solid #ec5242; width: 10%; margin-top: 0%;">
                 </div>
                 
-                <div class="highlevel-section-div mb-5">
+                <section id="events-section-2" class="highlevel-section-div mb-5">
                     <p style="text-align: center; font-weight: 700;">Take a look at the last two CC Global Summits which took place in Buenos Aires and in Warsaw</p>
-                    </div>
+                    </section>
                 <div class="highlevel-section-div p-1" style="flex-direction: column;">
                     <div id="card-1" class="highlevel-section-div-2 mb-4">
                         <div style="text-align: center;"><p>A</p><br><p>CC Global Summit 2013 in Buenos Aires</p></div>
@@ -143,7 +150,7 @@
                 </div></div>
         </section>
         
-    </div>
+    </section>
 
     <!-- Javascript Script Link -->
     <script src="./indexAbout.js"></script>

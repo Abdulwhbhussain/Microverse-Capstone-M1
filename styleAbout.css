@@ -88,13 +88,23 @@ body {
 
 #card-1::before {
   content: '';
-  position: absolute;
-  background: url(./assets/conference1.jpg);
+  position: relative;
+  /* background: #ec5242, url(./assets/conference1.jpg); */
+  background: rgba(243, 83, 45, 0.7);
   background-size: cover;
   width: 100%;
   height: fit-content;
   opacity: 0.3;
   z-index: 10;
+  border: 1px solid red;
+}
+
+#paragraph-mobile {
+  display: flex;
+}
+
+#paragraph-desktop {
+  display: none;
 }
 
 /* Styles for The 768px and Bigger Screens (Desktop Version) */
@@ -160,5 +170,49 @@ body {
   #footer-text {
     color: #d3d3d3 !important;
     margin-left: 10%;
+  }
+
+  #menu {
+    display: none !important;
+  }
+
+  #logo-in-about {
+    max-width: 500px;
+  }
+
+  #paragraph-mobile {
+    display: none;
+  }
+
+  #paragraph-desktop {
+    display: flex;
+    max-width: 50%;
+    font-weight: 400 !important;
+    font-size: 0.8rem !important;
+  }
+
+  #paragraph-desktop p {
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+  }
+
+  #about-logo-title {
+    max-width: 50%;
+  }
+
+  #about-logo-title p {
+    font-weight: 700;
+  }
+
+  #about-logo-title-br {
+    display: none;
+  }
+
+  #events-section-1 p {
+    font-weight: 600 !important;
+  }
+
+  #events-section-2 p {
+    font-weight: 400 !important;
   }
 }

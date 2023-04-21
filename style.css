@@ -249,4 +249,8 @@ body {
   #spacer-menu-1 {
     width: 65%;
   }
+
+  #menu {
+    display: none !important;
+  }
 }
