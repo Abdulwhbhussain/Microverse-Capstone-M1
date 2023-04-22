@@ -1,32 +1,7 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  
   <img src="wahab_icon.jpeg" alt="logo" width="140"  height="auto" />
   <br/>
 
@@ -98,9 +73,9 @@ This is My Capstone Project of Module 1 in Microverse which is A Dynamic and Res
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Here is the Link to this Project's Demo in Loom Video:
+> <a href="https://abdulwhbhussain.github.io/Microverse-Capstone-M1/" name="live-demo">Live Demo</a>
 
-> https://www.loom.com/share/b3f1108f2f6341f4b5705af8c9dd0ce3
+> <a href="https://www.loom.com/share/b3f1108f2f6341f4b5705af8c9dd0ce3" name="live-demo">Project Presentation in Loom</a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
