@@ -11,8 +11,7 @@
             "apply",
             "variants",
             "responsive",
-            "screen",
-            "no-descending-specificity"
+            "screen"
           ]
         }
       ]
