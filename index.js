@@ -68,8 +68,8 @@ window.onload = () => {
     }
     speaker.innerHTML = `
         <div><img src='${speakersArray[i].photo}' alt='lecture 2' /></div>
-                            <div><h4 style='font-weight: 700;'>${speakersArray[i].name}</h4>
-                            <p style='font-style: italic; color:#ec5242; font-size: 0.85rem; font-weight: 700;'>${speakersArray[i].role}</p><hr style='border: 1px solid #d3d3d3; width: 10%;'><p style='font-size: 0.75rem;'>${speakersArray[i].description}</p></div>
+                            <div><h4'>${speakersArray[i].name}</h4>
+                            <p>${speakersArray[i].role}</p><hr><p>${speakersArray[i].description}</p></div>
         `;
     document.querySelector('#block-78910').appendChild(speaker);
   }
